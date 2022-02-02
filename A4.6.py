@@ -18,4 +18,4 @@ except :
     print("Error, please enter numeric input")
     quit()
 
-print(computepay(hours, rate))
+print("Pay " + str(computepay(hours, rate)))
